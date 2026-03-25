@@ -1,6 +1,6 @@
 package Laboratorios.Lab03;
 
-public class People {
+public class PessoasPrincipal {
     public static void main(String[] args) {
         Pessoa p1 = new Pessoa("Ana Silva", 28, "Feminino", "(11) 98888-7777");
         Pessoa p2 = new Pessoa("Bruno Costa", 34, "Masculino", "(21) 97777-6666");
