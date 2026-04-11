@@ -15,5 +15,4 @@ class Empresa {
     public String toString() {
         return cnpj + ", " + razao + "\n" + endereco;
     }
-
 }
