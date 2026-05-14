@@ -14,8 +14,8 @@ public class TestaConta {
         cp.depositar(100.00);
         cp.sacar(20.00);
 
-        System.out.println(cc.toString());
-        System.out.println(cp.toString());
+        System.out.println(cc);
+        System.out.println(cp);
 
         ((ContaPoupanca) cp).atualizaSaldo(10);
         System.out.println("Saldo Poupanca após 10%: " + cp.getSaldo());
